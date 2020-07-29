@@ -48,7 +48,9 @@
 	<!-- END LOADER -->
 
 	<div class="vol-tex" id="tex">Click to Listen Music</div>
-	<div class="vol-cont" id="vol" onclick="handleMusic()"></div>
+	<div class="vol-cont" id="vol" onclick="handleMusic()">
+		<img src="images/images.png" alt="">
+	</div>
 
 	<!-- Start Banner -->
 	<div class="ulockd-home-slider">
@@ -419,21 +421,23 @@
 		var music = document.getElementById("music")
 		var vol = document.getElementById("vol")
 		let tex = document.getElementById("tex")
-		
+		let ele1 = '<img src="images/images.png" alt="">'
+		let ele2 = '<img src="images/vol-cancel.png" alt="">'
 		setTimeout(() => {
 			tex.style.visibility = "hidden";
 		}, 4000)
 
 		if(performance.navigation.type == performance.navigation.TYPE_RELOAD){
-			console.log("Reloaded")
-			// music.muted = false;
-			// music.play()
+			music.muted = false;
+			music.play()
+			vol.innerHTML = ele1
 		}
 
-		// window.onload = function(e) {
-		// 	music.muted = false
-		// 	music.play()
-		// }
+		window.onload = function(e) {
+			music.muted = false
+			music.play()
+			vol.innerHTML = ele1
+		}
 
 		function handleMusic(e){
 			var music = document.getElementById("music")
@@ -441,11 +445,13 @@
 				vol.classList.remove("cancel")
 				music.muted=false;
 				music.pause()
+				vol.innerHTML = ele2
 			}
 			else{
 				vol.classList.add("cancel")
 				music.muted = false
 				music.play()
+				vol.innerHTML = ele1
 			}
 		}
 	</script>
