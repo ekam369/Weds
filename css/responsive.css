@@ -23,19 +23,21 @@
 		padding: 5px 15px;
 	}
 	.lbox-details h1{
-		font-size: 24px;
+		font-size: 40px;
+		margin-bottom: 40px;
 	}
 	.lbox-details h2{
-		font-size: 18px;
+		font-size: 25px;
+		margin-bottom: 40px;
 	}
 	.lbox-details p strong{
-		font-size: 20px;
+		font-size: 23px;
 	}
 	.lbox-details a.btn{
 		display: none;
 	}
 	.title-box h2{
-		font-size: 28px;
+		font-size: 35px;
 	}
 	.about-main-info h2{
 		font-size: 24px;

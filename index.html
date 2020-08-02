@@ -26,7 +26,12 @@
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="css/responsive.css">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/custom.css">
+	<link rel="stylesheet" href="css/custom.css">
+	
+	<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -57,16 +62,16 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="pogoSlider" id="js-main-slider">
-					<div class="pogoSlider-slide" data-transition="zipReveal" data-duration="1500" style="background-image:url(images/slider-01.jpeg); background-size: 70% 180%; background-position: 50% 30%; ">
+					<div class="pogoSlider-slide" data-transition="zipReveal" data-duration="1500" style="background-image:url(images/slider-01.jpeg); background-size: 120% 100%; background-position: 50% 50%; ">
 						<div class="lbox-caption">
 							<div class="lbox-details">
 								<h1>Adarsh <span style="color: #dd666c;">&</span> Balpreet</h1>
 								<h2>We're getting married</h3>
-								<p><span style="font-weight: bolder; font-size: 1rem;">Save The Date</span> <strong style="font-size: 2rem;">&nbsp;August 14, 2020</strong></p>
+								<p><span style="font-weight: bolder; font-size: 1rem;">Save The Date</span> <strong style="font-size: 2.4rem;">&nbsp;August 14, 2020</strong></p>
 							</div>
 						</div>
 					</div>
-					<div class="pogoSlider-slide" data-transition="blocksReveal" data-duration="1500" style="background-image:url(images/slider-03.jpeg); background-size: 70% 120%; background-position: 50% 70%; transform: scale(1.2);">
+					<div class="pogoSlider-slide" data-transition="blocksReveal" data-duration="1500" style="background-image:url(images/slider-03.jpeg); background-size: 120% 100%; background-position: 50% 70%; transform: scale(1.2);">
 						<div class="lbox-caption">
 							<div class="lbox-details">
 								<h1>Adarsh <span style="color: #dd666c;">&</span> Balpreet</h1>
@@ -75,7 +80,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="pogoSlider-slide" data-transition="shrinkReveal" data-duration="2000" style="background-image:url(images/slider-04.jpeg); background-size: 70% 180%; background-position: 50% 30%;">
+					<div class="pogoSlider-slide" data-transition="shrinkReveal" data-duration="2000" style="background-image:url(images/slider-04.jpeg); background-size: 120% 100%; background-position: 50% 30%;">
 						<div class="lbox-caption">
 							<div class="lbox-details">
 								<h1>Adarsh <span style="color: #dd666c;">&</span> Balpreet</h1>
@@ -95,7 +100,7 @@
 	<div id="about" class="about-box">
 		<div class="about-a1">
 			<div class="container">
-				<div class="row">
+				<div class="row wow rotateIn" data-wow-offset="200">
 					<div class="col-lg-12">
 						<div class="title-box">
 							<h2>Adarsh <span style="color: #dd666c;">&</span> Balpreet</h2>
@@ -104,7 +109,7 @@
 				</div>
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12">
-						<div class="row align-items-center about-main-info">
+						<div class="row align-items-center about-main-info wow slideInRight" data-wow-offset="400"> 
 							<div class="col-lg-8 col-md-6 col-sm-12">
 								<h2> About <span>Balpreet Kaur</span></h2>
 								<p>Princess of Sardar Gurcharan Singh Behal and Sardarni Jaswinder Kaur Behal. Too excited to be a bride but at the same time little bit nervous about wedding and starting a new journey with new family who is going to accept me as their daughter.</p>
@@ -115,7 +120,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="row align-items-center about-main-info">
+						<div class="row align-items-center about-main-info wow slideInLeft" data-wow-offset="400"> 
 							<div class="col-lg-4 col-md-6 col-sm-12">
 								<div class="about-img">
 									<img class="img-fluid" style="border-radius: 50%;" src="images/about-img-02.jpg" alt="" />
@@ -138,13 +143,13 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
-					<div class="title-box">
+					<div class="title-box wow flip" data-wow-offset="400">
 						<h2>Our Story</h2>
 						<p>It started with the true friendship of the fathers which made this happen. </p>
 					</div>
 				</div>
 			</div>
-			<div class="row timeline-element separline">
+			<div class="row timeline-element separline wow fadeInUp" data-wow-offset="400">
 				<div class="timeline-date-panel col-xs-12 col-md-6  align-left">         
                     <div class="time-line-date-content">
                         <p class="mbr-timeline-date mbr-fonts-style display-font">
@@ -162,7 +167,7 @@
 					 </div>
 				</div>
 			</div>
-			<div class="row timeline-element reverse separline">
+			<div class="row timeline-element reverse separline wow fadeInUp" data-wow-offset="400">
 				<div class="timeline-date-panel col-xs-12 col-md-6  align-left">         
                     <div class="time-line-date-content">
                         <p class="mbr-timeline-date mbr-fonts-style display-font">
@@ -180,7 +185,7 @@
 					 </div>
 				</div>
 			</div>
-			<div class="row timeline-element separline">
+			<div class="row timeline-element separline wow fadeInUp" data-wow-offset="400">
 				<div class="timeline-date-panel col-xs-12 col-md-6  align-left">         
                     <div class="time-line-date-content">
                         <p class="mbr-timeline-date mbr-fonts-style display-font">
@@ -205,15 +210,17 @@
 	<!-- Start Family -->
 	<div id="family" class="family-box">
 		<div class="container">
-			<div class="row">
+			<div class="row wow rubberBand" data-wow-offset="200">
 				<div class="col-lg-12">
 					<div class="title-box">
-						<h2>Gumber Family</h2>
+						<h2 class="wow rubberBand" data-wow-offset="200" data-wow-duration="2s" style="margin-bottom: 30px;">Gumber Family</h2>
+						<h3 class="wow zoomInDown" data-wow-offset="200" data-wow-duration="2s"><span style="color: #dd666c;">" </span>With Blessings From Loving</br> Grandfather and Grandmother<span style="color: #dd666c;"> "</span></h3>
+						<h3 class="wow zoomInUp" data-wow-offset="200" data-wow-duration="2s" style="font-family: 'Marck Script', cursive; font-size: 30px;"><strong>Sardar Iqbal Singh <span style="color: #dd666c;">&</span> Sardarni Balbir Kaur</strong></h3>
 					</div>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-lg-4 col-md-6 col-sm-12">
+				<div class="col-lg-4 col-md-6 col-sm-12 wow slideInLeft" data-wow-offset="200">
 					<div class="single-team-member">
 						<div class="family-img">
 							<img class="img-fluid" src="images/family-02.jpg" alt="" />
@@ -223,7 +230,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-6 col-sm-12">
+				<div class="col-lg-4 col-md-6 col-sm-12 wow slideInRight" data-wow-offset="200">
 					<div class="single-team-member">
 						<div class="family-img">
 							<img class="img-fluid" src="images/family-011.jpg" alt="" />
@@ -233,13 +240,13 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-6 col-sm-12">
+				<div class="col-lg-4 col-md-6 col-sm-12 wow slideInLeft" data-wow-offset="200">
 					<div class="single-team-member">
 						<div class="family-img">
 							<img class="img-fluid" src="images/family-03.jpg" alt="" />
 						</div>
 						<div class="family-info">
-							<h4>Sibling Squad</h4>
+							<h4>Chacha G & Chachi G</h4>
 						</div>
 					</div>
 				</div>
@@ -252,38 +259,40 @@
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="title-box">
-						<h2>Behal Family</h2>
+						<h2 class="wow rubberBand" data-wow-offset="200" data-wow-duration="2s" style="margin-bottom: 30px;">Behal Family</h2>
+						<h3 class="wow zoomInDown" data-wow-offset="200" data-wow-duration="2s"><span style="color: #dd666c;">" </span>With Blessings From Loving</br> Grandfather and Grandmother<span style="color: #dd666c;"> "</span></h3>
+						<h3 class="wow zoomInUp" data-wow-offset="200" data-wow-duration="2s" style="font-family: 'Marck Script', cursive; font-size: 30px;"><strong>Sardar Gurbachan Singh <span style="color: #dd666c;">&</span> Sardarni Tripal Kaur</strong></h3>
 					</div>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-lg-4 col-md-6 col-sm-12">
-					<div class="single-team-member">
+					<div class="single-team-member wow slideInLeft" data-wow-offset="200">
 						<div class="family-img">
-							<img class="img-fluid" src="images/family-06.jpg" alt="" />
+							<img class="img-fluid" src="images/family-05.jpg" alt="" />
 						</div>
 						<div class="family-info">
 							<h4>Cute Family</h4>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-6 col-sm-12">
+				<div class="col-lg-4 col-md-6 col-sm-12 wow slideInRight" data-wow-offset="200">
 					<div class="single-team-member">
 						<div class="family-img">
-							<img class="img-fluid" src="images/family-05.jpg" alt="" />
+							<img class="img-fluid" src="images/family-06.jpg" alt="" />
 						</div>
 						<div class="family-info">
-							<h4>Sardar Gurcharan Singh & Sardarni Jaswinder Kaur </h4>
+							<h4>Caring Brothers & Bhabhis</h4>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-6 col-sm-12">
+				<div class="col-lg-4 col-md-6 col-sm-12 wow slideInLeft" data-wow-offset="200">
 					<div class="single-team-member">
 						<div class="family-img">
 							<img class="img-fluid" src="images/family-04.jpg"  alt="" />
 						</div>
 						<div class="family-info">
-							<h4>Stylish Brother</h4>
+							<h4>Loving Brother</h4>
 						</div>
 					</div>
 				</div>
@@ -296,7 +305,7 @@
 	<div id="gallery" class="gallery-box">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-lg-12">
+				<div class="col-lg-12 wow rotateInDownLeft" data-wow-offset="200">
 					<div class="title-box">
 						<h2>Gallery</h2>
 					</div>
@@ -304,51 +313,51 @@
 			</div>
 			<div class="row">
 				<ul class="popup-gallery ">
-					<li>
+					<li class="wow slideInRight" data-wow-offset="200">
 						<a href="images/gallery-01.jpg">
-							<img class="img-fluid" style="height: 350px; width: 400px;" src="images/gallery-01.jpg" alt="single image">
+							<img class="img-fluid" style="height: 300px; width: 400px;" src="images/gallery-01.jpg" alt="single image">
 							<span class="overlay"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
 						</a>
 					</li>
-					<li>
+					<li class="wow slideInLeft" data-wow-offset="200">
 						<a href="images/gallery-02.jpg">
-							<img class="img-fluid"  style="height: 350px; width: 400px;" src="images/gallery-02.jpg" alt="single image">
+							<img class="img-fluid"  style="height: 300px; width: 400px;" src="images/gallery-02.jpg" alt="single image">
 							<span class="overlay"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
 						</a>
 					</li>
-					<li>
+					<li class="wow slideInRight" data-wow-offset="200">
 						<a href="images/gallery-03.jpg">
-							<img class="img-fluid"  style="height: 350px; width: 400px;" src="images/gallery-03.jpg" alt="single image">
+							<img class="img-fluid"  style="height: 300px; width: 400px;" src="images/gallery-03.jpg" alt="single image">
 							<span class="overlay"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
 						</a>
 					</li>
-					<li>
+					<li class="wow slideInLeft" data-wow-offset="200">
 						<a href="images/gallery-04.jpg">
-							<img class="img-fluid"  style="height: 350px; width: 400px;" src="images/gallery-04.jpg" alt="single image">
+							<img class="img-fluid"  style="height: 300px; width: 400px;" src="images/gallery-04.jpg" alt="single image">
 							<span class="overlay"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
 						</a>
 					</li>
-					<li>
+					<li class="wow slideInRight" data-wow-offset="200">
 						<a href="images/gallery-05.jpg">
-							<img class="img-fluid"  style="height: 350px; width: 400px;" src="images/gallery-05.jpg" alt="single image">
+							<img class="img-fluid"  style="height: 300px; width: 400px;" src="images/gallery-05.jpg" alt="single image">
 							<span class="overlay"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
 						</a>
 					</li>
-					<li>
+					<li class="wow slideInLeft" data-wow-offset="200">
 						<a href="images/gallery-06.jpg">
-							<img class="img-fluid"  style="height: 350px; width: 400px;" src="images/gallery-06.jpg" alt="single image">
+							<img class="img-fluid"  style="height: 300px; width: 400px;" src="images/gallery-06.jpg" alt="single image">
 							<span class="overlay"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
 						</a>
 					</li>
-					<li>
+					<li class="wow slideInRight" data-wow-offset="200">
 						<a href="images/gallery-07.jpg">
-							<img class="img-fluid"  style="height: 350px; width: 400px;" src="images/gallery-07.jpg" alt="single image">
+							<img class="img-fluid"  style="height: 300px; width: 400px;" src="images/gallery-07.jpg" alt="single image">
 							<span class="overlay"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
 						</a>
 					</li>
-					<li>
+					<li class="wow slideInLeft" data-wow-offset="200">
 						<a href="images/gallery-08.jpg">
-							<img class="img-fluid"  style="height: 350px; width: 400px;" src="images/gallery-08.jpg" alt="single image">
+							<img class="img-fluid"  style="height: 300px; width: 400px;" src="images/gallery-08.jpg" alt="single image">
 							<span class="overlay"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
 						</a>
 					</li>
@@ -362,14 +371,14 @@
 	<div id="events" class="events-box">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-12">
+				<div class="col-lg-12 wow rollIn" data-wow-offset="200">
 					<div class="title-box">
 						<h2>Events</h2>
 					</div>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-lg-4 col-md-6 col-sm-12">
+				<div class="col-lg-4 col-md-6 col-sm-12 wow flash" data-wow-offset="200">
 					<div class="event-inner">
 						<div class="event-img">
 							<img class="img-fluid" src="images/event-img-01.jpg" style="height: 225px;" alt="" />
@@ -378,22 +387,22 @@
 						<p><strong>At Residence</strong><br/><strong>Timings:</strong> 03:00 PM to 06:00 PM </p>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-6 col-sm-12">
+				<div class="col-lg-4 col-md-6 col-sm-12 wow flash" data-wow-offset="200">
 					<div class="event-inner">
 						<div class="event-img">
 							<img class="img-fluid" src="images/event-img-02.jpg" alt="" />
 						</div>
 						<h2>13 August 2020 Ring Ceremony </h2>
-						<p><strong>At Maya Hotel</strong><br/><strong>Timings:</strong>12:00 PM to 06:00PM</p>
+						<p><strong>At Sarovar Portico</strong><br/><strong>Timings:</strong>10:30 AM to 03:00PM</p>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-6 col-sm-12">
+				<div class="col-lg-4 col-md-6 col-sm-12 wow flash" data-wow-offset="200">
 					<div class="event-inner">
 						<div class="event-img">
 							<img class="img-fluid" src="images/event-img-03.jpg" style="height: 225px;" alt="" />
 						</div>
 						<h2>14 August 2020 Wedding </h2>
-						<p><strong>At Ambassador Hotel</strong><br/><strong>Timings:</strong>12:00 PM to 06:00PM</p>
+						<p><strong>At Ambassador Hotel</strong><br/><strong>Baraat:</strong>10:00 AM<br/><strong>Dolly</strong> 04:00 PM</p>
 					</div>
 				</div>
 			</div>
@@ -413,6 +422,12 @@
 	<script src="js/form-validator.min.js"></script>
     <script src="js/contact-form-script.js"></script>
 	<script src="js/custom.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js" integrity="sha512-Rd5Gf5A6chsunOJte+gKWyECMqkG8MgBYD1u80LOOJBfl6ka9CtatRrD4P0P5Q5V/z/ecvOCSYC8tLoWNrCpPg==" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous"></script>
+	<script>
+		console.log("Hello")
+		new WOW().init();
+	</script>
 	
 	<script>
 		var music = document.getElementById("music")
